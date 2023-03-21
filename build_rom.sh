@@ -6,7 +6,6 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build roms
 source build/envsetup.sh
 lunch bootleg_X01AD-userdebug
-export WITH_GAPPS=true
 export BUILD_USERNAME=assunzain
 export BUILD_HOSTNAME=zain
 export TZ=Asia/Jakarta #put before last build command
