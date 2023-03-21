@@ -7,6 +7,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch bootleg_X01AD-userdebug
 export ALLOW_MISSING_DEPENDENCIES=true
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export BUILD_USERNAME=assunzain
 export BUILD_HOSTNAME=zain
 export TZ=Asia/Jakarta #put before last build command
