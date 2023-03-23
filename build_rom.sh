@@ -5,7 +5,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
  
 # build rom
 source build/envsetup.sh
-lunch xtented_X01AD-userdebug
+lunch xtended_X01AD-userdebug
 export BUILD_USERNAME=Assunzain
 export BUILD_HOSTNAME=Assunzain
 export ALLOW_MISSING_DEPENDENCIES=true
