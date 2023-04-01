@@ -8,8 +8,6 @@ source build/envsetup.sh
 lunch xtended_X01AD-userdebug
 export BUILD_USERNAME=Assunzain
 export BUILD_HOSTNAME=Assunzain
-export ALLOW_MISSING_DEPENDENCIES=true
-export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export TZ=Asia/Jakarta #put before last build command
 make xtended
 
